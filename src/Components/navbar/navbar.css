@@ -1,0 +1,10 @@
+.navbar-show {
+    opacity: 1;
+    transform: translateY(-10%);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.navbar-show.show {
+    opacity: 1;
+    transform: translateY(0%);
+}
